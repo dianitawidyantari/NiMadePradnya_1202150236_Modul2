@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.widya.nimadepradnya_1202150236_modul2.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/splashImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:scaleY="0.7"
+            android:src="@drawable/wel2" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:text="Pilih Menu :"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="2dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/DI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130dp"
+                android:text="Dine In"
+                tools:layout_editor_absoluteX="155dp"
+                tools:layout_editor_absoluteY="182dp" />
+
+            <RadioButton
+                android:id="@+id/TA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="130sp"
+                android:text="Take Away"
+                tools:layout_editor_absoluteX="155dp"
+                tools:layout_editor_absoluteY="225dp" />
+
+        </RadioGroup>
+
+
+    <Button
+        android:id="@+id/buttonP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PESAN SEKARANG"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="274dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:onClick="proses"/>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
